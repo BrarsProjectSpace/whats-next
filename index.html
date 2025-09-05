@@ -8,17 +8,20 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div class="navbar">
-            <h1>WHATS NEXT ?</h1>
-        </div>
+        <header>
+            <div class="navbar">
+                <h1>WHATS NEXT ?</h1>
+            </div>
 
-        <div class="container">
             <div class="input-section">
                 <input type="text" autocomplete="off" id="user-input"
                     placeholder="Task . . . .">
                 <button id="add">ADD</button>
                 <button id="cancel">CANCEL</button>
             </div>
+        </header>
+
+        <div class="container">
 
             <div class="todo-section" id="todo-section">
                 <!-- <div id="todo-card" class="todo-card">
@@ -29,6 +32,12 @@
                     <button id="edit" class="edit">Edit</button>
                 </div> -->
             </div>
+
+        </div>
+
+        <div class="footer">
+            <p>Press Enter to ADD or Ctrl + Backspace to remove current
+                Entry</p>
         </div>
 
         <!-- javascript -->
