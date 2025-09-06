@@ -146,9 +146,11 @@ function createTodoCard(task) {
     if (checkbox.checked) {
       todoValue.style.textDecoration = "line-through";
       todoValue.style.color = "rgb(110, 110, 110)";
+      todoValue.style.backgroundColor = "rgba(84, 84, 84, 0.44)";
     } else {
       todoValue.style.textDecoration = "none";
       todoValue.style.color = "black";
+      todoValue.style.backgroundColor = "white";
     }
     saveTodos();
   });
